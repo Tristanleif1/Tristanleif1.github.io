@@ -219,6 +219,38 @@ input, select, textarea {
 			margin: auto;
 		}
 
+		.education {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+		.edu {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: stretch;
+			margin-bottom: 25px;
+		}
+
+		.edu-school {
+			width: 260px;
+		}
+			.edu-school h4 {
+				margin: 0 0 0 0
+			}
+
+		.AAO-logo {
+			width: 50px;
+			height: auto;
+			object-fit: contain;
+		  }
+		.UCSC-logo {
+			width: 64px;
+			object-fit: contain;
+			height: auto;
+		  }
+
 		.skills-icons {
 			display: grid;
 			grid-template-columns: 1fr 1fr 1fr;
@@ -1585,7 +1617,7 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			background-color: rgba(50, 54, 57, 0.85);
 			border-radius: 4px;
 			opacity: 0;
 		}
