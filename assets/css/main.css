@@ -219,6 +219,17 @@ input, select, textarea {
 			margin: auto;
 		}
 
+		h2.major-contact{
+			border-bottom: solid 1px #ffffff;
+			width: -moz-max-content;
+			width: -webkit-max-content;
+			width: -ms-max-content;
+			width: max-content;
+			padding-bottom: 0.5rem;
+			margin: auto;
+			margin-bottom: 30px;
+		}
+
 		.education {
 			display: flex;
 			flex-direction: column;
