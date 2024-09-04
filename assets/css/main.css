@@ -37,6 +37,35 @@ ol, ul {
 	list-style: none;
 }
 
+.internship-date{
+	font-weight: bold;
+	margin: auto;
+	margin-top: 0.5rem;
+	text-align: center;
+}
+
+.experience-detail{
+	margin-bottom: 20px;
+}
+
+.experience-detail h3{
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+	color: #007bff;
+}
+
+.experience-detail p{
+	font-size: 1em;
+	line-height: 1.5;
+	margin-bottom: 10px;
+	color: #ffffff
+}
+
+.experience-detail p strong {
+	font-weight: bold;
+	color: #ffffff;
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -115,6 +144,8 @@ input, select, textarea {
    		display: block !important; 
     	margin: 0 auto !important;  
     	width: 100% !important; 
+		color: #007bff;
+
 	}
 
 	.project-links {
@@ -209,7 +240,7 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
-		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+		h1.major, h3.major, h4.major, h5.major, h6.major {
 			border-bottom: solid 1px #ffffff;
 			width: -moz-max-content;
 			width: -webkit-max-content;
@@ -217,6 +248,17 @@ input, select, textarea {
 			width: max-content;
 			padding-bottom: 0.5rem;
 			margin: auto;
+		}
+
+		h2.major {
+			border-bottom: solid 1px #ffffff;
+			width: -moz-max-content;
+			width: -webkit-max-content;
+			width: -ms-max-content;
+			width: max-content;
+			padding-bottom: 0.5rem;
+			margin: auto;
+			margin-bottom: 1.5rem;
 		}
 
 		h2.major-contact{
